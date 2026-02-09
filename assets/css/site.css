@@ -354,6 +354,19 @@ img{ max-width: 100%; height: auto; display: block; }
   color: rgba(12,15,26,.72);
   font-weight: 600;
 }
+.org{
+  display:inline-flex;
+  align-items:center;
+  gap: 10px;
+}
+.org__logo{
+  width: auto;
+  height: 18px;
+  max-width: 140px;
+  flex: 0 0 auto;
+  display:block;
+}
+.org__logo--square{ height: 20px; }
 .role ul{
   margin: 0 0 12px;
   padding-left: 18px;
@@ -507,4 +520,3 @@ img{ max-width: 100%; height: auto; display: block; }
   .contact{ grid-template-columns: 1fr; }
   .role{ grid-template-columns: 1fr; }
 }
-

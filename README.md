@@ -22,3 +22,7 @@ Minimal, professional portfolio site for a DevOps / SRE profile.
 ## Credits / Licenses
 - Tool icons: Simple Icons (CC0-1.0), downloaded via jsDelivr.
 - Fonts: Google Fonts (Fraunces, IBM Plex Sans, IBM Plex Mono).
+- Company logos:
+  - EY logo: Wikimedia Commons (public domain).
+  - Sacoa logo: Wikimedia Commons (CC BY-SA 4.0).
+  - Other company marks (Accenture, HP, IBM, Boehringer Ingelheim): Simple Icons (CC0-1.0), colored locally.
