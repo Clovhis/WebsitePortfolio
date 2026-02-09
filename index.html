@@ -41,6 +41,7 @@
         <nav class="nav" aria-label="Primary">
           <a href="#experience">Experience</a>
           <a href="#projects">Selected work</a>
+          <a href="#ai">AI</a>
           <a href="#skills">Stack</a>
           <a href="#certs">Certifications</a>
           <a href="#education">Education</a>
@@ -84,7 +85,7 @@
             <ul class="quickfacts" role="list">
               <li>
                 <span class="k">Focus</span>
-                <span class="v">SRE, Azure, Kubernetes, CI/CD, Automation</span>
+                <span class="v">SRE, Azure, Kubernetes, CI/CD, AI Platforms</span>
               </li>
               <li>
                 <span class="k">Tools</span>
@@ -187,6 +188,11 @@
                   <li>Create and maintain Azure DevOps pipelines to streamline CI/CD delivery.</li>
                   <li>Support developers with troubleshooting, guidance, and platform enablement.</li>
                   <li>Consult stakeholders on best practices for Azure and AI-related initiatives.</li>
+                  <li>
+                    Delivered the <strong>Nexus</strong> internal LLM platform on Kubernetes with
+                    <strong>Nvidia Tesla V100 GPUs</strong> using containerized <strong>Ollama</strong> and
+                    premium persistent storage for model management (2024).
+                  </li>
                   <li>Operate and coordinate resources across geographies; run frequent demos and reviews.</li>
                 </ul>
                 <div class="tags">
@@ -363,6 +369,26 @@
 
           <div class="grid" data-reveal>
             <article class="work">
+              <h3>Nexus (EY) | Kubernetes + Nvidia Tesla V100 GPUs + Ollama</h3>
+              <p>
+                Internal LLM platform enabling teams to pull and run models on a GPU-backed Kubernetes
+                cluster, then query them from applications through a standard service interface.
+              </p>
+              <ul>
+                <li>Kubernetes cluster with <strong>Nvidia Tesla V100 GPUs</strong> for accelerated inference.</li>
+                <li><strong>Ollama</strong> containerized on the cluster for model lifecycle and serving.</li>
+                <li>Premium persistent storage to keep pulled models available for users and workloads.</li>
+                <li>Operational ownership: reliability, automation, and enablement for consuming teams.</li>
+              </ul>
+              <div class="tags">
+                <span class="tag">Kubernetes</span>
+                <span class="tag">Nvidia GPUs</span>
+                <span class="tag">Ollama</span>
+                <span class="tag">Platform Enablement</span>
+              </div>
+            </article>
+
+            <article class="work">
               <h3>Intelligence Engine (Azure + AI initiatives)</h3>
               <p>
                 Delivery enablement and platform support for AI-driven initiatives, including frequent demos and
@@ -425,6 +451,77 @@
         </div>
       </section>
 
+      <section class="section" id="ai">
+        <div class="container">
+          <header class="section__header" data-reveal>
+            <h2>AI &amp; Agentic Systems</h2>
+            <p>
+              Practical, hands-on experience operating AI platforms and building agentic workflows, with a strong
+              focus on reliability, enablement, and production constraints.
+            </p>
+          </header>
+
+          <div class="grid" data-reveal>
+            <article class="work">
+              <h3>Microsoft Foundry | Agents + RAG</h3>
+              <p>Built agents and retrieval-augmented generation (RAG) solutions for enterprise use cases.</p>
+              <ul>
+                <li>Agent design with tool usage, guardrails, and workflow orchestration.</li>
+                <li>RAG pipelines: ingestion, chunking, embeddings, retrieval, and response grounding.</li>
+                <li>Operational considerations: monitoring, evaluation loops, and cost awareness.</li>
+              </ul>
+              <div class="tags">
+                <span class="tag">Microsoft Foundry</span>
+                <span class="tag">Agents</span>
+                <span class="tag">RAG</span>
+              </div>
+            </article>
+
+            <article class="work">
+              <h3>Azure OpenAI | Enterprise Enablement</h3>
+              <p>Hands-on delivery and operations for Azure OpenAI integrations from a DevOps/SRE perspective.</p>
+              <ul>
+                <li>Support and consulting for teams adopting LLMs in applications and internal tools.</li>
+                <li>Focus on reliability, scalability, cost control, and secure platform usage patterns.</li>
+              </ul>
+              <div class="tags">
+                <span class="tag">Azure OpenAI</span>
+                <span class="tag">SRE</span>
+                <span class="tag">Platform</span>
+              </div>
+            </article>
+
+            <article class="work">
+              <h3>Factory Droid (Factory.ai) | MCP Servers + Dashboards</h3>
+              <p>Accelerated dashboard delivery using agentic tooling connected through multiple MCP servers.</p>
+              <ul>
+                <li>MCP servers integrated with <strong>Azure</strong> and <strong>Grafana</strong> sources.</li>
+                <li>Faster dashboard creation and iteration with consistent patterns and reusable workflows.</li>
+              </ul>
+              <div class="tags">
+                <span class="tag">Factory Droid</span>
+                <span class="tag">MCP Servers</span>
+                <span class="tag">Grafana</span>
+              </div>
+            </article>
+
+            <article class="work">
+              <h3>Ollama | Local and Kubernetes-based LLM Ops</h3>
+              <p>LLM operations across local experimentation and Kubernetes-based serving patterns.</p>
+              <ul>
+                <li>Containerized model serving with GPU acceleration (Nexus, EY).</li>
+                <li>Personal R&amp;D using <strong>Codex 5.3</strong> and agent workflows.</li>
+              </ul>
+              <div class="tags">
+                <span class="tag">Ollama</span>
+                <span class="tag">Codex 5.3</span>
+                <span class="tag">Agent Workflows</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
       <section class="section" id="skills">
         <div class="container">
           <header class="section__header" data-reveal>
@@ -461,6 +558,18 @@
                 <li>Monitoring, telemetry, APM</li>
                 <li>ITIL / ITSM operations</li>
                 <li>Incident response &amp; change management</li>
+              </ul>
+            </div>
+            <div class="stack__col">
+              <h3>AI &amp; Agents</h3>
+              <ul>
+                <li>Azure OpenAI</li>
+                <li>Microsoft Foundry (agents)</li>
+                <li>RAG (retrieval-augmented generation)</li>
+                <li>Ollama (containerized LLM serving)</li>
+                <li>MCP Servers</li>
+                <li>Factory Droid (Factory.ai)</li>
+                <li>Codex 5.3 (personal R&amp;D)</li>
               </ul>
             </div>
           </div>
