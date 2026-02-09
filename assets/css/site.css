@@ -210,6 +210,8 @@ img{ max-width: 100%; height: auto; display: block; }
 .hero__card{
   position: sticky;
   top: 92px;
+  justify-self: end;
+  max-width: clamp(280px, 30vw, 360px);
 }
 .photo{
   border-radius: var(--radius2);
@@ -511,7 +513,12 @@ img{ max-width: 100%; height: auto; display: block; }
 
 @media (max-width: 980px){
   .hero__grid{ grid-template-columns: 1fr; }
-  .hero__card{ position: static; }
+  .hero__card{
+    position: static;
+    max-width: 520px;
+    margin: 0 auto;
+    justify-self: stretch;
+  }
   .nav{ display:none; }
   .brand{ min-width: 0; }
   .topbar__cta{ margin-left: auto; }
