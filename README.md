@@ -17,7 +17,7 @@ Minimal, professional portfolio site for a DevOps / SRE profile.
 - Styles: `assets/css/site.css`
 - JS (logos marquee + reveal): `assets/js/main.js`
 - Photo: `assets/img/photo.jpg`
-- CV: `assets/cv/CV_Leonardo_Vargas_2026.pdf`
+- CV: `assets/cv/Leonardo_Vargas_CV_2026.pdf`
 
 ## Credits / Licenses
 - Tool icons: Simple Icons (CC0-1.0), downloaded via jsDelivr.
